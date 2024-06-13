@@ -595,43 +595,84 @@
     </div>
   </section>  
 
-  <!-- <section class="contact" id="contact">
-  
-  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+   <section id="contact" class="contact">
+    <div class="container">
 
-  <div class="container">
-    <div class="content">
-      <div class="image-box">
-        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Contact Me</p>
       </div>
-    <form id="contact-form">
-      
-      <div class="form-group">
-        <div class="field">
-          <input type="text" name="name" placeholder="Name" required>
-          <i class='fas fa-user'></i>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>My Address</h3>
+            <p>Sanjay Gandhi Colony Rawanteela Aligarh, Uttar Pradesh</p>
+          </div>
         </div>
-        <div class="field">
-          <input type="text" name="email" placeholder="Email" required>
-          <i class='fas fa-envelope'></i>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="https://x.com/YAMANRAJSINGH" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100013941399038" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/yamanrajsingh007" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://github.com/yamanrajsingh" class="google-plus"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/yamanrajsingh/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
         </div>
-        <div class="field">
-          <input type="text" name="phone" placeholder="Phone">
-          <i class='fas fa-phone-alt'></i>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <a href="mailto:yamanrajsingh07@gmail.com" style="color: #df8e01;">yamanrajsingh07@gmail.com</a>
+          </div>
         </div>
-        <div class="message">
-        <textarea placeholder="Message" name="message" required></textarea>
-        <i class="fas fa-comment-dots"></i>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Call Me</h3>
+            <a href="tel:+918445899130" style="color: #df8e01;">+91 8445899130</a></p>
+          </div>
         </div>
-        </div>
-      <div class="button-area">
-        <button type="submit">
-          Submit <i class="fa fa-paper-plane"></i></button>
       </div>
-    </form>
-  </div>
-  </div>
-</section> -->
+
+       <form id="contact-form" method="post" role="form" class="php-email-form mt-4"> 
+        <div class="row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          <input type="number" class="form-control" name="number" id="number" placeholder="Enter Phone Number" required>
+        </div>
+        <div class="form-group mt-3">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit">Send Message</button></div> 
+       </form>
+    </div>
+  </section>  
+  
+
   <!-- End Contact Section -->
 
   <div class="credits">
