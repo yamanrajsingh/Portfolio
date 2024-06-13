@@ -239,9 +239,35 @@
     }
   });
 
+  
+
   /**
    * Initiate Pure Counter 
    */
   new PureCounter();
 
 })()
+
+$(document).ready(function () {
+  $("#contact").submit(function (event) {
+    event.preventDefault();
+
+    emailjs.init("Bbe7-E2Ou5Vz9fAFw");
+
+    emailjs
+      .sendForm("service_mkdvz62", "template_uli91xn", "#contact-form")
+      .then(
+        function (response) {
+          console.log("SUCCESS!", response.status, response.text);
+          document.getElementById("contact-form").reset();
+          alert("Form Submitted Successfully");
+        },
+        function (error) {
+          console.log("FAILED...", error);
+          alert("Form Submission Failed! Try Again");
+        }
+      );
+  });
+});
+
+// <!-- emailjs to mail contact form data -->

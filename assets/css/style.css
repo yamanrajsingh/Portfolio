@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
-  color: #fff;
+  color: #ffffff;
   position: relative;
   background: transparent;
 }
@@ -10,7 +10,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/Me!.png") top right no-repeat;
+  background: #040404 url("../img/b.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -72,21 +72,24 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: #fff;
+  color: #ffffff;
   line-height: 1;
+  font-weight: bolder;
   display: inline-block;
 }
 
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  font-weight: bolder;
+  color:  #ffffff;
 }
 
 #header h2 span {
-  color: #fff;
-  border-bottom: 2px solid #18d26e;
+  color: #ffffff;
+  border-bottom: 2px solid #e08815;
   padding-bottom: 6px;
+  font-weight: bolder;
 }
 
 #header img {
@@ -105,7 +108,7 @@ h6 {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: #ffffff;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -114,7 +117,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #000000;
 }
 
 @media (max-width: 992px) {
@@ -221,6 +224,7 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
+  font-weight: bolder;
 }
 
 .navbar a i,
@@ -237,7 +241,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #f19c12;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -381,7 +385,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #ebcb4c;
   margin: 4px 10px;
 }
 
@@ -401,7 +405,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #d29718;
 }
 
 .about-me .content ul {
@@ -422,7 +426,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #d29d18;
   line-height: 0;
 }
 
@@ -453,7 +457,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: #d28b18;
   border-radius: 50px;
   line-height: 0;
 }
@@ -505,7 +509,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #c18620;
 }
 
 /*--------------------------------------------------------------
@@ -643,7 +647,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #d28b18;
   margin-bottom: 10px;
 }
 
@@ -676,8 +680,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #d28518;
+  border: 2px solid #d28518;
 }
 
 /*--------------------------------------------------------------
@@ -694,7 +698,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #18d26e;
+  background: #d28818;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -739,8 +743,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
-  border-color: #18d26e;
+  background: #e49b25;
+  border-color: #d28b18;
 }
 
 .services .icon-box:hover .icon {
@@ -748,11 +752,11 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #18d26e;
+  color: #c08b2a;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #b87e27;
 }
 
 .services .icon-box:hover h4 a,
@@ -793,7 +797,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #d28e18;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -893,7 +897,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #deae2b;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -987,7 +991,7 @@ section .container {
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #d29718;
 }
 
 /*--------------------------------------------------------------
@@ -1002,7 +1006,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #d29418;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1039,7 +1043,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #d28b18;
 }
 
 .contact .php-email-form {
@@ -1063,7 +1067,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #18d26e;
+  background: #d28518;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1083,7 +1087,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #d29418;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1125,7 +1129,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #18d26e;
+  background: #d29418;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1134,7 +1138,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #15bb62;
+  background: #d29418;
 }
 
 @keyframes animate-loading {
@@ -1171,7 +1175,7 @@ section .container {
 }
 
 .credits a {
-  color: #18d26e;
+  color:#d29418;
   transition: 0.3s;
 }
 
